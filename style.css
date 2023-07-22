@@ -1,0 +1,75 @@
+:root {
+--Red: hsl(1, 90%, 64%);
+--Blue: hsl(219, 85%, 26%);
+--Verylightgrayishblue: hsl(210, 60%, 98%);
+--Lightgrayishblue_1: hsl(211, 68%, 94%);
+--Lightgrayishblue_2: hsl(205, 33%, 90%);
+--Grayishblue: hsl(219, 14%, 63%);
+--Darkgrayishblue: hsl(219, 12%, 42%);
+--Verydarkblue: hsl(224, 21%, 14%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+#wh {
+    position: absolute;
+    
+}
+main {
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+header > * {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+#count {
+    color: white;
+    background-color: var(--Blue);
+    font-size: 0.75rem;
+    border-radius: 5px;
+    padding: .2rem .5rem;
+}
+
+#read {
+    font-weight: 500;
+    color: var(--Darkgrayishblue);
+}
+section {
+    display: flex;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--Lightgrayishblue_1);
+}
+
+section img {
+    object-fit:contain;
+    /* width: autop; */
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
