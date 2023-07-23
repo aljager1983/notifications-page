@@ -54,10 +54,12 @@ h1 {
 
 #read {
     font-weight: 500;
+    font-size: .85rem;
     color: var(--Darkgrayishblue);
 }
 section {
     display: flex;
+    align-items: center;
     margin: 0.5rem 0;
     padding: 1rem;
     border-radius: 10px;
@@ -65,11 +67,29 @@ section {
 }
 
 section img {
-    object-fit:contain;
-    /* width: autop; */
+    display: flex;
+    height: 40px;
+    width: 40px;
 }
 
 h2 {
     margin: 0;
     padding: 0;
+    font-size: .85rem;
+    float: left;
+}
+
+.content-post {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: .75rem;
+    
 }
