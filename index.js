@@ -4,4 +4,5 @@ function size () {
     let h = window.innerHeight;
     let w = window.innerWidth;
     scrSize.innerHTML = w + "x" + h + " wxh";
+    console.log(scrSize)
 }
