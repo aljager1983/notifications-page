@@ -59,6 +59,11 @@ h1 {
     font-size: .85rem;
     color: var(--Darkgrayishblue);
 }
+
+#read:hover {
+    cursor: pointer;
+}
+
 section {
     display: flex;
     margin: 0.5rem 0;
