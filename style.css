@@ -46,7 +46,7 @@ h1 {
     font-weight: 800;
 }
 
-#count {
+#notiCount {
     color: white;
     background-color: var(--Blue);
     font-size: 0.75rem;
@@ -67,11 +67,14 @@ section {
     
 }
 
-.read {
+section:hover {
+    cursor: pointer;
+}
+.unread {
     background-color: var(--Lightgrayishblue_1);
 }
 
-.unread {
+.read {
     background-color: white;
 }
 section img {
@@ -108,7 +111,7 @@ p, .content-p {
     font-weight: 700;
 }
 
-#dotUnread {
+.dotUnread {
     display: inline-block;
     align-items: center;
     width: 7px;
