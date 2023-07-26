@@ -112,10 +112,17 @@ p, .content-p {
     padding: 0;
 }
 
-#event {
+.event {
     font-weight: 700;
 }
 
+.game {
+    color: var(--Grayishblue);
+    font-weight: 700;
+}
+.game:hover {
+    color: var(--Blue)
+}
 .dotUnread {
     display: inline-block;
     align-items: center;
@@ -127,8 +134,24 @@ p, .content-p {
 
 #message {
     padding: 1rem 0 1rem 1rem;
-    margin: 1rem 0;
+    margin: 1rem 0 1rem 1rem;
     border: 1px solid var(--Lightgrayishblue_2);
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: .95rem;
+}
+
+#message:hover {
+    background-color: #E5EFF9;
+}
+
+@media screen and (min-width: 376px) {
+    body {
+        background-color: #F9FAFE;
+    }
+
+    main {
+        background-color: white;
+        max-width: 45vw;
+        margin: 2rem auto;
+    }
 }
