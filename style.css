@@ -72,9 +72,6 @@ section {
     
 }
 
-section:hover {
-    cursor: pointer;
-}
 .unread {
     background-color: var(--Lightgrayishblue_1);
 }
@@ -94,6 +91,9 @@ h2 {
     float: left;
 }
 
+h2:hover {
+    color:var(--Blue)
+}
 .content-post {
     display: inline-block;
     padding: 0 0 0 1rem;
@@ -114,6 +114,10 @@ p, .content-p {
 
 .event {
     font-weight: 700;
+    color: var(--Blue);
+}
+.event:hover {
+    cursor: pointer;
 }
 
 .game {
@@ -142,8 +146,16 @@ p, .content-p {
 
 #message:hover {
     background-color: #E5EFF9;
+    cursor: pointer;
 }
 
+#chessGirl {
+    margin-left: auto;
+}
+
+img:hover {
+    cursor: pointer;
+}
 @media screen and (min-width: 376px) {
     body {
         background-color: #F9FAFE;
