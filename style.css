@@ -19,9 +19,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    display: flex;
-    align-items: center;
-    height: 100vh;
 }
 #wh {
     position: absolute;
@@ -164,6 +161,9 @@ img:hover {
 @media screen and (min-width: 376px) {
     body {
         background-color: #F9FAFE;
+        display: flex;
+        align-items: center;
+        height: 100vh;
     }
 
     main {
